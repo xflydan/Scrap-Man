@@ -4,7 +4,7 @@ from translation import Translation
 
 class Config:
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", None)
+    TG_BOT_TOKEN = os.environ.get("6426726647:AAGMS2MAMs2tqiePMDRbP5CrHIN3kLtxNfw", None)
     # required for running on Heroku
     URL = os.environ.get("URL", "")
     PORT = int(os.environ.get("PORT", 5000))
@@ -12,9 +12,9 @@ class Config:
     CHUNK_SIZE = 10280
     # MyTelegram.org
     # configurtion required while creating new application
-    APP_TITLE = os.environ.get("APP_TITLE", "Lunatic0de")
-    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Lunatic0de")
-    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/scrapmanbot")
+    APP_TITLE = os.environ.get("APP_TITLE", "DanteUbot")
+    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "DanteUbot")
+    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/dantescrapbot")
     # these platform informations were obtained
     # on 27.01.2020 21:15:50 IST
     APP_PLATFORM = [
@@ -32,10 +32,10 @@ class Config:
     # https://github.com/SpEcHiDe/MyTelegramOrgRoBot/issues/3
     APP_DESCRIPTION = os.environ.get(
         "APP_DESCRIPTION",
-        "created using https://telegram.dog/scrapmanbot"
+        "created using https://telegram.dog/dantescrapbot"
     )
     #
-    FOOTER_TEXT = os.environ.get("FTEXT", "<b>Managed With ☕️ By @mrismanaziz</b>")
+    FOOTER_TEXT = os.environ.get("FTEXT", "<b>Managed With 🔥 By @DanteVincentee</b>")
     # the strings used in the different messages
     # in the bot
     START_TEXT = os.environ.get("START_TEXT", Translation.START_TEXT)
