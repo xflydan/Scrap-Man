@@ -44,7 +44,7 @@ from helper_funcs.helper_steps import (
 
 WEBHOOK = bool(os.environ.get("WEBHOOK", False))
 if WEBHOOK:
-    from sample_config import Config
+    from sample_config import config
 else:
     from config import Development as Config
 
